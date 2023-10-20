@@ -11,8 +11,8 @@ class BankAccount{
         console.log(`Account Balance: $${this.balance}`)
     }
     withdraw(amount){
-        if(this.balance === 0){
-            console.log("Your account is empty")
+        if(amount > this.balance){
+            console.log("Insufficient balance")
         }else {
             let newBalance = this.balance - amount
             this.balance = newBalance
