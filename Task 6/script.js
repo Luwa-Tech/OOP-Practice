@@ -5,7 +5,7 @@ class Book {
         this.year = year
     }
     bookDetails() {
-        console.log(`Title: ${this.title} Year: ${this.year}`)
+        console.log(`Title: ${this.title}`)
         console.log(`Author: ${this.author}`)
         console.log(`Year: ${this.year}`)
     }
