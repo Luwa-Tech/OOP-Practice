@@ -25,6 +25,5 @@ class BankAccount{
 
 const test = new BankAccount(123456789, 0)
 console.log(test.depositMoney(2000))
-
-console.log(test.depositMoney(2000))
+console.log(test.withdraw(500))
 console.log(test.withdraw(500))
