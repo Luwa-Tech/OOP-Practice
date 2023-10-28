@@ -18,7 +18,7 @@ class Ebook extends Book {
     }
     bookDetails(){
         super.bookDetails()
-        console.log(`Price: ${this.price}`)
+        console.log(`Price:${this.price}`)
     }
 }
 
